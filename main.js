@@ -7,7 +7,6 @@ main = () => {
         serverEngine.start();
 
     } catch (e) {
-        helper.logger(e)
         process.exit(1);
     }
 };
