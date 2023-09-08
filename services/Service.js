@@ -13,7 +13,7 @@ class Service {
             const slackName = payload.slack_name;
             const track = payload.track;
 
-            const currentDate = new Date();
+            const currentDate = new Date().toISOString();
 
             const response = {
                 slack_name: slackName,
